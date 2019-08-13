@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "Divyang | Developer",
   "homepage": "https://divyang7777.github.io/",
+=======
+  "name": "material-kit-react",
+  "homepage": "https://github.com/creativetimofficial/material-kit-react",
+>>>>>>> parent of 3971a10... Updates
   "authors": [
     "creative-tim"
   ],

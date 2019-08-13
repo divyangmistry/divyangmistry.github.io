@@ -27,7 +27,11 @@ import "assets/scss/material-kit-react.scss?v=1.7.0";
 import LandingPage from "views/LandingPage/LandingPage.jsx";
 import ProfilePage from "views/ProfilePage/ProfilePage.jsx";
 import LoginPage from "views/LoginPage/LoginPage.jsx";
+<<<<<<< HEAD
 import ContactPage from "views/ContactPage/ContactPage.jsx";
+=======
+import ContactPage from "views/ContactPage/ContactPage.tsx";
+>>>>>>> parent of 3971a10... Updates
 
 var hist = createBrowserHistory();
 
