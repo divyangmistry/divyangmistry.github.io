@@ -131,6 +131,17 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
+                <div onClick={() => setModal("07")} className="portfolio_popup progress_inner skillsInner___" data-value={90}>
+                  <span>
+                    <span className="label">Creative Tools {">"}</span>
+                    <span className="number">90%</span>
+                  </span>
+                  <div className="background">
+                    <div className="bar">
+                      <div className="bar_in" />
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className={modal === "01" ? "" : "hidden_content"}>
@@ -512,6 +523,64 @@ const Skills = () => {
                       <div className="popbox_progress_inner skillsInner___" data-value={80}>
                         <span>
                           <span className="label">Structuring</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "07" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Creative Tools</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Photography / Videography</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={90}>
+                        <span>
+                          <span className="label">Adobe Photoshop, Lightroom</span>
+                          <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Adobe Premiere Pro, After Effects</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Corel Draw</span>
                           <span className="number">80%</span>
                         </span>
                         <div className="background">

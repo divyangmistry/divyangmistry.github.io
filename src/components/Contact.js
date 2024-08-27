@@ -76,8 +76,8 @@ const Contact = () => {
                     {emailIcon}
                     <span>Email</span>
                     <h3>
-                      <a className="line_anim" href="mailto:divyangmistry@gmail.com">
-                        divyangmistry@gmail.com
+                      <a className="line_anim" href="mailto:divyangmistry7777@gmail.com">
+                        divyangmistry
                       </a>
                     </h3>
                   </div>
@@ -101,7 +101,7 @@ const Contact = () => {
                     <span>
                       {error
                         ? "Please Fill Required Fields"
-                        : "Your message has been received, We will contact you soon."}
+                        : "Your message has been received, Divyang Mistry will contact you soon."}
                     </span>
                   </div>
                   <div className="input_list">

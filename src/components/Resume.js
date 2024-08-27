@@ -17,12 +17,12 @@ const Resume = () => {
                 data-text-align="left"
                 data-color="dark"
               >
-                <span>Know More</span>
+                {/* <span>Know More</span> */}
                 <h3>My Resume</h3>
-                <p>
+                {/* <p>
                   I enjoy every step of the design process, from discussion and
                   collaboration to concept and execution
-                </p>
+                </p> */}
               </div>
               <div className="content_inner">
                 <ul>
@@ -71,29 +71,11 @@ const Resume = () => {
                           </div>
                         </div>
                       </li>
-                      {/* <li>
-                        <div className="list_inner">
-                          <span className="icon">{edu}</span>
-                          <div className="info">
-                            <div className="left">
-                              <h3>Bachelor of Science</h3>
-                              <span>Univercity of Oxford</span>
-                            </div>
-                            <div className="right">
-                              <span>2012 - 2014</span>
-                            </div>
-                          </div>
-                          <div className="text">
-                            <p>
-                              Aali is a leading web design agency with an
-                              award-winning design
-                            </p>
-                          </div>
-                        </div>
-                      </li> */}
                     </ul>
                   </li>
-                  <li className="wow fadeInRight" data-wow-duration="1s">
+                </ul>
+                <ul>
+                  <li className="wow fadeInLeft" data-wow-duration="1s">
                     <h3 className="main_title">
                       <span>Experience</span>
                     </h3>
@@ -112,10 +94,10 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                            As Chief Information Officer (CIO), my responsibilities included overseeing
-                            office and cloud infrastructure management, which encompassed leading
-                            departments such as DevOps and Network Administration. Additionally, I
-                            supervised Operations and Customer Success Management departments.
+                              As Chief Information Officer (CIO), my responsibilities included overseeing
+                              office and cloud infrastructure management, which encompassed leading
+                              departments such as DevOps and Network Administration. Additionally, I
+                              supervised Operations and Customer Success Management departments.
                             </p>
                           </div>
                         </div>
@@ -154,10 +136,10 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                            In my capacity as a Junior Software Developer, my primary responsibilities
-                            included contributing to the development of Node.js and Angular projects as
-                            assigned, while also providing guidance and assistance to new interns in
-                            accomplishing their tasks.
+                              In my capacity as a Junior Software Developer, my primary responsibilities
+                              included contributing to the development of Node.js and Angular projects as
+                              assigned, while also providing guidance and assistance to new interns in
+                              accomplishing their tasks.
                             </p>
                           </div>
                         </div>
@@ -176,8 +158,8 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                            As a Frontend Developer, my role encompassed successfully executing tasks
-                            across projects involving Node.js, Angular, and React technologies.
+                              As a Frontend Developer, my role encompassed successfully executing tasks
+                              across projects involving Node.js, Angular, and React technologies.
                             </p>
                           </div>
                         </div>
@@ -196,8 +178,8 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                            As a Frontend Developer, my role encompassed successfully executing tasks
-                            across projects involving Node.js, Angular, and React technologies
+                              As a Frontend Developer, my role encompassed successfully executing tasks
+                              across projects involving Node.js, Angular, and React technologies
                             </p>
                           </div>
                         </div>
@@ -209,9 +191,7 @@ const Resume = () => {
             </div>
           </div>
         </div>
-        <div className="media" data-background-style="video">
-          {" "}
-          {/* Background Styles: "video" and "image" // Also you can use any youtube, vimeo, and local videos */}
+        {/* <div className="media" data-background-style="video">
           <div
             className="video jarallax"
             data-speed={0}
@@ -227,7 +207,7 @@ const Resume = () => {
             data-direction="y"
             data-reverse="yes"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

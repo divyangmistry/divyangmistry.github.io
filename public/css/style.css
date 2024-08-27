@@ -41,7 +41,7 @@ body{
 	letter-spacing: 0px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #f4f5fe;
+	background-color: #e8f1e2;
 	color: #7d7789;
 }
 svg{
@@ -717,7 +717,7 @@ h6 { font-size: 16px; }
 	margin-top: -70px;
 }
 .aali_tm_hero .stroke_text span{
-	font-size: 260px;
+	font-size: 200px;
 	color: transparent;
 	-webkit-text-stroke: 3px rgba(255,255,255,.3);
 	text-stroke: 3px rgba(255,255,255,.3);
@@ -1748,7 +1748,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	position: relative;
-	margin-bottom: 250px;
+	margin-bottom: 100px;
 }
 .aali_tm_resume .content{
 	width: 100%;
@@ -1759,7 +1759,7 @@ h6 { font-size: 16px; }
 	padding-top: 160px;
 }
 .aali_tm_resume .content_inner{
-	width: 75%;
+	width: 100%;
 	margin-top: 85px;
 	float: left;
 }
@@ -1768,8 +1768,8 @@ h6 { font-size: 16px; }
 	list-style-type: none;
 }
 .aali_tm_resume .content_inner > ul > li{
-	margin: 0px;
-	width: 50%;
+	margin: 10px;
+	width: 100%;
 	float: left;
 	padding-left: 100px;
 }
@@ -1815,9 +1815,10 @@ h6 { font-size: 16px; }
 	list-style-type: none;
 }
 .aali_tm_resume .list li{
-	margin: 0px 0px 40px 0px;
-	width: 100%;
+	padding: 0px 30px 40px 0px;
+	width: 50%;
 	float: left;
+	height: 250px;
 }
 .aali_tm_resume .list li:last-child{
 	margin-bottom: 0px;

@@ -20,9 +20,9 @@ const Home = () => {
               <span className="hello">Hello, {`I'm`}</span>
               <h3 className="name">Divyang</h3>
               <div className="job">
-                <span className="cd-headline rotate-1">
+                {/* <span className="cd-headline rotate-1">
                   {" "}
-                  {/* ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  */}
+                  ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push, 
                   <span className="blc">Creative </span>
                   <span className="cd-words-wrapper">
                     <b className={text === 1 ? "is-visible" : "is-hidden"}>
@@ -35,7 +35,7 @@ const Home = () => {
                       Freelancer
                     </b>
                   </span>
-                </span>
+                </span> */}
               </div>
               <div className="hero_buttons">
                 <div className="aali_tm_button">
@@ -135,7 +135,7 @@ const Home = () => {
         </div>
         <div className="hero_mail">
           <a className="line_anim" href="mailto:divyangmistry7777@gmail.com">
-            divyangmistry7777@gmail.com
+          <i className="icon-gmail" /> divyang mistry
           </a>
         </div>
       </div>
