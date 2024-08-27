@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { aTagClick, dataImage } from "../utilits";
+import { aTagClick, dataImage, activeSkillProgress } from "../utilits";
 import ModalBox from "./ModalBox";
 import Popup from "./Popup";
 // import Isotope from "isotope-layout";
@@ -41,9 +41,9 @@ const Skills = () => {
   const [modal, setModal] = useState(0);
 
 
-  // useEffect(() => {
-  //   window.addEventListener("scroll", activeSkillProgress);
-  // });
+  useEffect(() => {
+    window.addEventListener("scroll", activeSkillProgress);
+  });
   return (
     <div className="aali_tm_section" id="portfolio">
       <div className="aali_tm_skills">
@@ -55,161 +55,20 @@ const Skills = () => {
                 data-text-align="left"
                 data-color="light"
               >
-                <span>My Skills</span>
                 <h3>
-                  You Can Imagine
-                  <br /> I Can Do
+                  My Skills
                 </h3>
                 <p>
-                  I am working on a professional, visually sophisticated and
-                  technologically proficient, responsive and multi-functional
-                  creative personal resume portfolio template Aali
+                  With a robust blend of technical expertise and project management acumen, I bring a comprehensive skill set to every project. My core competencies include:
                 </p>
               </div>
             </div>
             <div className="right wow fadeInRight" data-wow-duration="1s">
-              {/* <div className="portfolio_list">
-                <ul className="gallery_zoom">
-                  <li className="filter-item detail">
-                    <div className="list_inner">
-                      <div className="image">
-                    <img src="img/thumbs/1-1.jpg" alt="aali image" />
-                    <div className="main" data-img-url="img/portfolio/4.jpg" />
-                  </div>
-                      <div className="overlay" />
-                      text
-                      <div className="details">
-                        <span>Detail</span>
-                        <h3>Hippie Sabotage</h3>
-                      </div>
-                      <a
-                        className="aali_tm_full_link portfolio_popup"
-                        href="#"
-                        onClick={() => setModal(1)}
-                      />
-                      <div className={modal === 1 ? "" : "hidden_content"}>
-                        <ModalBox close={setModal}>
-                          <div className="popup_details">
-                            <div className="top_image">
-                              <img src="img/thumbs/4-2.jpg" alt="" />
-                              <div
-                                className="main"
-                                data-img-url="img/portfolio/4.jpg"
-                              ></div>
-                            </div>
-                            <div className="portfolio_main_title">
-                              <span>Detail</span>
-                              <h3>Hippie Sabotage</h3>
-                              <div></div>
-                            </div>
-                            <div className="main_details">
-                              <div className="textbox">
-                                <p>
-                                  We live in a world where we need to move quickly
-                                  and iterate on our ideas as flexibly as possible.
-                                  Building mockups strikes the ideal balance ease of
-                                  modification.
-                                </p>
-                                <p>
-                                  Mockups are useful both for the creative phase of
-                                  the project - for instance when {`you're`} trying
-                                  to figure out your user flows or the proper visual
-                                  hierarchy - and the production phase when they
-                                  will represent the target product.
-                                </p>
-                              </div>
-                              <div className="detailbox">
-                                <ul>
-                                  <li>
-                                    <span className="first">Client</span>
-                                    <span>Alvaro Morata</span>
-                                  </li>
-                                  <li>
-                                    <span className="first">Category</span>
-                                    <span>
-                                      <a href="#">Detail</a>
-                                    </span>
-                                  </li>
-                                  <li>
-                                    <span className="first">Date</span>
-                                    <span>March 07, 2021</span>
-                                  </li>
-                                  <li>
-                                <span className="first">Share</span>
-                                <ul className="share">
-                                  <li>
-                                    <a href="#">{fb}</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">{twitter}</a>
-                                  </li>
-                                  <li>
-                                    <a href="#">{insta}</a>
-                                  </li>
-                                </ul>
-                              </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <div className="additional_images">
-                              <ul>
-                                <li>
-                                  <div className="list_inner">
-                                    <div className="my_image">
-                                      <img
-                                        src="img/thumbs/4-2.jpg"
-                                        alt="aali image"
-                                      />
-                                      <div
-                                        className="main"
-                                        data-img-url="img/portfolio/1.jpg"
-                                      />
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div className="list_inner">
-                                    <div className="my_image">
-                                      <img
-                                        src="img/thumbs/4-2.jpg"
-                                        alt="aali image"
-                                      />
-                                      <div
-                                        className="main"
-                                        data-img-url="img/portfolio/2.jpg"
-                                      />
-                                    </div>
-                                  </div>
-                                </li>
-                                <li>
-                                  <div className="list_inner">
-                                    <div className="my_image">
-                                      <img
-                                        src="img/thumbs/4-2.jpg"
-                                        alt="aali image"
-                                      />
-                                      <div
-                                        className="main"
-                                        data-img-url="img/portfolio/3.jpg"
-                                      />
-                                    </div>
-                                  </div>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </ModalBox>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div> */}
-              <p>Development Framework</p>
               <div className="dodo_progress">
-                <div className="progress_inner skillsInner___" data-value={86}>
+                <div onClick={() => setModal("01")} className="portfolio_popup progress_inner skillsInner___" data-value={80}>
                   <span>
-                    <span className="label">React</span>
-                    <span className="number">86%</span>
+                    <span className="label">Development Framework {">"} </span>
+                    <span className="number">80%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -217,10 +76,10 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={90}>
+                <div onClick={() => setModal("02")} className="portfolio_popup progress_inner skillsInner___" data-value={60}>
                   <span>
-                    <span className="label">Angular</span>
-                    <span className="number">90%</span>
+                    <span className="label">Development Languages {">"}</span>
+                    <span className="number">60%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -228,10 +87,10 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={66}>
+                <div onClick={() => setModal("03")} className="portfolio_popup progress_inner skillsInner___" data-value={80}>
                   <span>
-                    <span className="label">NodeJs</span>
-                    <span className="number">66%</span>
+                    <span className="label">Automation {">"}</span>
+                    <span className="number">80%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -239,10 +98,10 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={66}>
+                <div onClick={() => setModal("04")} className="portfolio_popup progress_inner skillsInner___" data-value={70}>
                   <span>
-                    <span className="label">.NET Core</span>
-                    <span className="number">45%</span>
+                    <span className="label">Devops {">"}</span>
+                    <span className="number">70%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -250,10 +109,10 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={66}>
+                <div onClick={() => setModal("05")} className="portfolio_popup progress_inner skillsInner___" data-value={85}>
                   <span>
-                    <span className="label">Ionic</span>
-                    <span className="number">66%</span>
+                    <span className="label">Networking {">"}</span>
+                    <span className="number">85%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -261,10 +120,10 @@ const Skills = () => {
                     </div>
                   </div>
                 </div>
-                <div className="progress_inner skillsInner___" data-value={66}>
+                <div onClick={() => setModal("06")} className="portfolio_popup progress_inner skillsInner___" data-value={68}>
                   <span>
-                    <span className="label">Flutter</span>
-                    <span className="number">56%</span>
+                    <span className="label">Project Management {">"}</span>
+                    <span className="number">68%</span>
                   </span>
                   <div className="background">
                     <div className="bar">
@@ -273,6 +132,399 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
+
+              <div className={modal === "01" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Development Framework</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">React</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Angular</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">NodeJs</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={65}>
+                        <span>
+                          <span className="label">.NET Core</span>
+                          <span className="number">65%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={75}>
+                        <span>
+                          <span className="label">Ionic</span>
+                          <span className="number">75%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={50}>
+                        <span>
+                          <span className="label">Flutter</span>
+                          <span className="number">50%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "02" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Development Languages</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={90}>
+                        <span>
+                          <span className="label">JavaScript</span>
+                          <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">TypeScript</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={75}>
+                        <span>
+                          <span className="label">C#</span>
+                          <span className="number">75%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Python</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "03" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Automation</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Bash Scripting</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Power shell scripting</span>
+                          <span className="number">70%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "04" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Devops</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={90}>
+                        <span>
+                          <span className="label">Docker</span>
+                          <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Jenkins</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={70}>
+                        <span>
+                          <span className="label">Kubernetes</span>
+                          <span className="number">70%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={60}>
+                        <span>
+                          <span className="label">Grafana</span>
+                          <span className="number">60%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={65}>
+                        <span>
+                          <span className="label">Prometheus</span>
+                          <span className="number">65%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "05" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Networking</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={90}>
+                        <span>
+                          <span className="label">Router</span>
+                          <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={95}>
+                        <span>
+                          <span className="label">Firewall</span>
+                          <span className="number">95%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Switch</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Windows Server</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={90}>
+                        <span>
+                          <span className="label">System Operations</span>
+                          <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={75}>
+                        <span>
+                          <span className="label">NAS</span>
+                          <span className="number">75%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Networking Administration</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
+              <div className={modal === "06" ? "" : "hidden_content"}>
+                <ModalBox close={setModal}>
+                  <div className="popup_details">
+                    <div className="portfolio_main_title">
+                      <span>Detail</span>
+                      <h3>Project Management</h3>
+                      <div></div>
+                    </div>
+                    <div className="dodo_progress">
+                      <div className="popbox_progress_inner skillsInner___" data-value={65}>
+                        <span>
+                          <span className="label">Jira</span>
+                          <span className="number">65%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={70}>
+                        <span>
+                          <span className="label">Scrum</span>
+                          <span className="number">70%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Planning</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">Structuring</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ModalBox>
+              </div>
+
             </div>
           </div>
         </div>

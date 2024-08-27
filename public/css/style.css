@@ -309,8 +309,8 @@ h6 { font-size: 16px; }
 	justify-content: space-between;
 }
 .aali_tm_mobile_menu .mobile_in .logo img{
-	max-width: 70px;
-	max-height: 50px;
+	max-width: 150px;
+	max-height: 60px;
 }
 .aali_tm_mobile_menu .trigger{
 	line-height: 0;
@@ -400,7 +400,7 @@ h6 { font-size: 16px; }
 	padding: 22px 0px;
 }
 .aali_tm_header .logo img{
-	max-width: 120px;
+	max-width: 250px;
 }
 .aali_tm_header .logo .light{display: block;}
 .aali_tm_header .logo .dark{display: none;}
@@ -940,7 +940,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	background-color: #ba3c3c;
-	padding: 160px 0px 557px 0px;
+	padding: 160px 0px 280px 0px;
 	position: relative;
 }
 .aali_tm_skills .skills_inner{
@@ -1016,6 +1016,13 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 }
+.hidden_content{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	position: absolute;
+	z-index: -11;
+}
 .progress_inner{
 	width:100%;
 	margin-bottom:27px;
@@ -1059,6 +1066,55 @@ h6 { font-size: 16px; }
 	height:100%;
 }
 .progress_inner .background .bar.open{
+	-webkit-animation: wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
+	-moz-animation:    wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	animation:         wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	width:100%;	
+}
+
+.popbox_progress_inner{
+	width:100%;
+	margin-bottom:27px;
+}
+.popbox_progress_inner:last-child{
+	margin-bottom: 0px;
+}
+.popbox_progress_inner > span{
+	margin:0px 0px 13px 0px;
+	width:100%;
+	display:block;
+	text-align:left;
+	color: #3c3c3c;
+	font-family: "Josefin Sans";
+	font-size: 21px;
+	font-weight: 700;
+	letter-spacing: -.2px;
+}
+.popbox_progress_inner span.number{
+	float: right;
+	font-family: "Open Sans";
+	font-size: 18px;
+}
+.popbox_progress_inner .background{
+	background:rgba(255,255,255,.3);
+	width:100%;
+	min-width:100%;
+	position:relative;
+	height:8px;
+	border-radius: 25px;
+}
+.popbox_progress_inner .background .bar_in{
+	height:100%;
+	background:#ea4343;
+	width:0px;
+	overflow:hidden;
+	border-radius: 25px 0px 0px 25px;
+}
+.popbox_progress_inner .background .bar{
+	width:0px;
+	height:100%;
+}
+.popbox_progress_inner .background .bar.open{
 	-webkit-animation: wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
 	-moz-animation:    wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
 	animation:         wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */

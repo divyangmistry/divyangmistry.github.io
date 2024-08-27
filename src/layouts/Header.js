@@ -35,18 +35,21 @@ const Header = ({ dark }) => {
               <li>
                 <a href="#about">About</a>
               </li>
-              {/* <li>
+              <li>
                 <a href="#portfolio">Portfolio</a>
-              </li> */}
+              </li>
+              <li>
+                <a href="#resume">Resume</a>
+              </li>
               <li>
                 <a href="#service">Service</a>
               </li>
               {/* <li>
                 <a href="#testimonial">Testimonial</a>
               </li> */}
-              <li>
+              {/* <li>
                 <a href="#blog">Blog</a>
-              </li>
+              </li> */}
               <li>
                 <a href="#contact">Contact</a>
               </li>
