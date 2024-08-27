@@ -19,10 +19,10 @@ const Resume = () => {
               >
                 {/* <span>Know More</span> */}
                 <h3>My Resume</h3>
-                {/* <p>
-                  I enjoy every step of the design process, from discussion and
+                <p>
+                  I enjoy every step of the product creation process, from discussion and
                   collaboration to concept and execution
-                </p> */}
+                </p>
               </div>
               <div className="content_inner">
                 <ul>

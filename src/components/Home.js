@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { fb, insta, msg, github } from "../svgImage";
+import { insta, msg, twitter } from "../svgImage";
 import { parallax } from "../utilits";
 
 const Home = () => {
@@ -123,20 +123,15 @@ const Home = () => {
         <div className="socials">
           <ul>
             <li>
-              <a href="https://github.com/divyangmistry">{github}</a>
+              <a href="https://github.com/divyangmistry"><i className="icon-github-1" /></a>
             </li>
-            {/* <li>
-              <a href="#">{twitter}</a>
-            </li> */}
             <li>
-              <a href="https://www.instagram.com/root_node.lens/">{insta}</a>
+              <a href="mailto:divyangmistry7777@gmail.com"><i className="icon-mail-3" /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/root_node.lens/"><i className="icon-instagram-3" /></a>
             </li>
           </ul>
-        </div>
-        <div className="hero_mail">
-          <a className="line_anim" href="mailto:divyangmistry7777@gmail.com">
-          <i className="icon-gmail" /> divyang mistry
-          </a>
         </div>
       </div>
     </div>

@@ -18,7 +18,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href="mailto:divyangmistry7777@gmail.com">
-                      <i className="icon-gmail" />
+                      <i className="icon-mail-3" />
                     </a>
                   </li>
                   <li>
