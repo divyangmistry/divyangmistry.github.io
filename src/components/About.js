@@ -40,7 +40,7 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Hi! My name is Divyang Mistry. I am Chief Information Officer @ Arishti Info Labs, and {`I'm`}{" "}
+                Hi! My name is Divyang Mistry. I am Product Manager @ Arishti Info Labs, and {`I'm`}{" "}
                 very passionate and dedicated to my work.
               </p>
               <p>
