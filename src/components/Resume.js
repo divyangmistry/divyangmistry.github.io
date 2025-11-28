@@ -85,7 +85,7 @@ const Resume = () => {
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Chief Information Officer</h3>
+                              <h3>Product Manager</h3>
                               <span>Arishti Info Labs</span>
                             </div>
                             <div className="right">
@@ -94,7 +94,7 @@ const Resume = () => {
                           </div>
                           <div className="text">
                             <p>
-                              As Chief Information Officer (CIO), my responsibilities included overseeing
+                              As Product Manager, my responsibilities included overseeing
                               office and cloud infrastructure management, which encompassed leading
                               departments such as DevOps and Network Administration. Additionally, I
                               supervised Operations and Customer Success Management departments.

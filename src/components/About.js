@@ -29,9 +29,9 @@ const About = () => {
               <h3>
                 {`I'm`} <span>Divyang</span>
               </h3>
-              {/* <h3>
-                Chief Information <span>Officer</span>
-              </h3> */}
+              <h3>
+                Product <span>Manager</span>
+              </h3>
               <span className="subtitle">Based in Gandhinagar,Gujarat</span>
             </div>
             <div
@@ -53,7 +53,7 @@ const About = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="files/resume-divyang.pdf" download>
+              <a href="files/Divyang-Resume.pdf" download>
                 <span>Download CV {download}</span>
               </a>
             </div>
