@@ -8,7 +8,6 @@ import CareerTimeline from '../src/components/CareerTimeline';
 import TechnicalSkills from '../src/components/TechnicalSkills';
 import Certifications from '../src/components/Certifications';
 import BlogSection from '../src/components/BlogSection';
-import Education from '../src/components/Education';
 import ContactSection from '../src/components/ContactSection';
 import ThemeToggle from '../src/components/ThemeToggle';
 
