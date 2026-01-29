@@ -30,9 +30,12 @@ const About = () => {
                 {`I'm`} <span>Divyang</span>
               </h3>
               <h3>
-                Product <span>Manager</span>
+                Lead <span>Product Engineer</span>
               </h3>
-              <span className="subtitle">Based in Gandhinagar,Gujarat</span>
+              <h3>
+                & DevOps <span>Architect</span>
+              </h3>
+              <span className="subtitle">Based in Gandhinagar, Gujarat</span>
             </div>
             <div
               className="text wow fadeInUp"
@@ -40,12 +43,15 @@ const About = () => {
               data-wow-delay="0.2s"
             >
               <p>
-                Hi! My name is Divyang Mistry. I am Product Manager @ Arishti Info Labs, and {`I'm`}{" "}
-                very passionate and dedicated to my work.
+                Hi! My name is Divyang Mistry. I am a Lead Product Engineer and DevOps Architect
+                with over 6+ years of experience driving the full product lifecycle of complex cybersecurity
+                and SaaS solutions.
               </p>
               <p>
-                With over 6+ years of experience as a professional, I have acquired the skills and knowledge
-                necessary to make your project a success.
+                I specialize in bridging technical engineering and business strategy, with proven expertise
+                in leading cross-functional teams across DevOps, Network Administration, and Customer Success.
+                My core strengths include enterprise-grade infrastructure, virtualization (Proxmox, QEMU, Hyper-V),
+                custom Linux distribution development (Yocto), CI/CD automation, and security hardening.
               </p>
             </div>
             <div
@@ -53,7 +59,7 @@ const About = () => {
               data-wow-duration="1.5s"
               data-wow-delay="0.2s"
             >
-              <a href="files/Divyang-Resume.pdf" download>
+              <a href="files/Divyang_Resume_2026.pdf" download>
                 <span>Download CV {download}</span>
               </a>
             </div>

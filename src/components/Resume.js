@@ -85,19 +85,29 @@ const Resume = () => {
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Product Manager</h3>
+                              <h3>Lead Product Engineer (Acting TPM) & DevOps Architect</h3>
                               <span>Arishti Info Labs</span>
                             </div>
                             <div className="right">
-                              <span>2023 - Persent</span>
+                              <span>June 2023 - Present</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              As Product Manager, my responsibilities included overseeing
-                              office and cloud infrastructure management, which encompassed leading
-                              departments such as DevOps and Network Administration. Additionally, I
-                              supervised Operations and Customer Success Management departments.
+                              <strong>Product Strategy & Execution:</strong> Direct end-to-end product strategy for cybersecurity
+                              portfolio including "Advance Cyber Kiosk" and "Dorje" OT SIEM, ensuring alignment with market demands.
+                            </p>
+                            <p>
+                              <strong>DevOps Architecture:</strong> Design and implement enterprise DevOps infrastructure using
+                              Proxmox virtualization, QEMU/KVM, and automated CI/CD pipelines with Jenkins and Docker orchestration.
+                            </p>
+                            <p>
+                              <strong>Infrastructure & Security:</strong> Configure enterprise-grade routers, firewalls, and OpenSource
+                              VPN solutions; implement Snort-based intrusion detection and system hardening protocols.
+                            </p>
+                            <p>
+                              <strong>Cross-Functional Leadership:</strong> Lead DevOps, Network Administration, Operations, and
+                              Customer Success teams; conduct Angular and .NET code reviews.
                             </p>
                           </div>
                         </div>
@@ -107,17 +117,25 @@ const Resume = () => {
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Sr. Software Developer</h3>
+                              <h3>Senior Software Engineer & Product Lead</h3>
                               <span>Arishti Info Labs</span>
                             </div>
                             <div className="right">
-                              <span>2021 - 2023</span>
+                              <span>June 2021 - June 2023</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              I commenced my career as a Senior Software Developer specializing in the
-                              research and development of next-generation cybersecurity products
+                              <strong>R&D & Custom Linux:</strong> Spearheaded R&D of security products; developed custom Linux
+                              distributions using Yocto for embedded cybersecurity appliances.
+                            </p>
+                            <p>
+                              <strong>Product Delivery:</strong> Managed full lifecycle of hardware-integrated forensic kiosk
+                              (Advance Cyber Kiosk) and OT traffic monitoring tool (Dorje SIEM) with frontend UX and backend logic.
+                            </p>
+                            <p>
+                              <strong>CI/CD Implementation:</strong> Planned and created CI/CD pipelines for automated testing,
+                              building, and deployment of security applications.
                             </p>
                           </div>
                         </div>
@@ -127,19 +145,18 @@ const Resume = () => {
                           <span className="icon">{exp}</span>
                           <div className="info">
                             <div className="left">
-                              <h3>Jr. Software Developer</h3>
+                              <h3>Software Developer</h3>
                               <span>TechAvidus</span>
                             </div>
                             <div className="right">
-                              <span>2021 - 2021</span>
+                              <span>Feb 2020 - June 2021</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              In my capacity as a Junior Software Developer, my primary responsibilities
-                              included contributing to the development of Node.js and Angular projects as
-                              assigned, while also providing guidance and assistance to new interns in
-                              accomplishing their tasks.
+                              Collaborated on scalable Node.js and Angular applications for enterprise clients
+                              with focus on performance optimization. Provided technical mentorship to junior
+                              developers, improving team velocity and establishing code quality standards.
                             </p>
                           </div>
                         </div>
@@ -153,13 +170,13 @@ const Resume = () => {
                               <span>Nimblechapps</span>
                             </div>
                             <div className="right">
-                              <span>2019 - 2021</span>
+                              <span>Oct 2019 - Feb 2020</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              As a Frontend Developer, my role encompassed successfully executing tasks
-                              across projects involving Node.js, Angular, and React technologies.
+                              Executed frontend development for diverse client projects using React and Node.js
+                              with modern tooling and best practices.
                             </p>
                           </div>
                         </div>
@@ -173,13 +190,13 @@ const Resume = () => {
                               <span>Webelight Solutions</span>
                             </div>
                             <div className="right">
-                              <span>2019 - 2018</span>
+                              <span>July 2018 - Oct 2019</span>
                             </div>
                           </div>
                           <div className="text">
                             <p>
-                              As a Frontend Developer, my role encompassed successfully executing tasks
-                              across projects involving Node.js, Angular, and React technologies
+                              Developed responsive web interfaces and optimized application performance using
+                              Angular frameworks for various client projects.
                             </p>
                           </div>
                         </div>

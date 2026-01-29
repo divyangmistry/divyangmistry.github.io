@@ -197,6 +197,28 @@ const Skills = () => {
                           </div>
                         </div>
                       </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={70}>
+                        <span>
+                          <span className="label">C++</span>
+                          <span className="number">70%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={65}>
+                        <span>
+                          <span className="label">Qt Framework</span>
+                          <span className="number">65%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
                       <div className="popbox_progress_inner skillsInner___" data-value={75}>
                         <span>
                           <span className="label">Ionic</span>
@@ -302,10 +324,21 @@ const Skills = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                      <div className="popbox_progress_inner skillsInner___" data-value={70}>
                         <span>
-                          <span className="label">Power shell scripting</span>
+                          <span className="label">PowerShell Scripting</span>
                           <span className="number">70%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={75}>
+                        <span>
+                          <span className="label">Yocto Project</span>
+                          <span className="number">75%</span>
                         </span>
                         <div className="background">
                           <div className="bar">
@@ -331,6 +364,39 @@ const Skills = () => {
                         <span>
                           <span className="label">Docker</span>
                           <span className="number">90%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={85}>
+                        <span>
+                          <span className="label">Proxmox</span>
+                          <span className="number">85%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={80}>
+                        <span>
+                          <span className="label">QEMU/KVM</span>
+                          <span className="number">80%</span>
+                        </span>
+                        <div className="background">
+                          <div className="bar">
+                            <div className="bar_in" />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="popbox_progress_inner skillsInner___" data-value={75}>
+                        <span>
+                          <span className="label">Hyper-V</span>
+                          <span className="number">75%</span>
                         </span>
                         <div className="background">
                           <div className="bar">
