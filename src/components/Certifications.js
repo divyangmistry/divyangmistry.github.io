@@ -319,32 +319,46 @@ const Certifications = () => {
                                 </svg>
                                 Current Reading List
                             </h4>
-                            {/* <ul style={{
-                                listStyle: 'none',
-                                padding: 0,
-                                margin: 0,
-                                display: 'grid',
-                                gridTemplateColumns: 'repeat(3, 1fr)',
-                                gap: '0.75rem'
+                            <p style={{
+                                fontSize: '0.75rem',
+                                color: 'var(--color-slate-700)',
+                                margin: '0 0 1rem 0',
+                                lineHeight: '1.6'
                             }}>
-                                {readingList.map((book, index) => (
-                                    <li key={index} style={{
-                                        fontSize: '0.75rem',
-                                        color: 'var(--color-slate-700)',
-                                        paddingLeft: '1.25rem',
-                                        position: 'relative'
-                                    }}>
-                                        <span style={{
-                                            position: 'absolute',
-                                            left: 0,
-                                            fontSize: '1rem'
-                                        }}>
-                                            📖
-                                        </span>
-                                        {book}
-                                    </li>
-                                ))}
-                            </ul> */}
+                                Explore the books and resources I'm currently reading to expand my knowledge in technology, leadership, and software engineering.
+                            </p>
+                            <a
+                                href="https://blog.divyangmistry.com/list/reading-list"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '0.5rem',
+                                    fontSize: '0.8125rem',
+                                    fontWeight: '600',
+                                    color: 'var(--color-primary)',
+                                    textDecoration: 'none',
+                                    padding: '0.625rem 1rem',
+                                    background: 'rgba(30, 58, 138, 0.1)',
+                                    borderRadius: '0.375rem',
+                                    transition: 'all 0.2s ease',
+                                    border: '1px solid rgba(30, 58, 138, 0.2)'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.target.style.background = 'var(--color-primary)';
+                                    e.target.style.color = 'white';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.target.style.background = 'rgba(30, 58, 138, 0.1)';
+                                    e.target.style.color = 'var(--color-primary)';
+                                }}
+                            >
+                                <span>View My Reading List</span>
+                                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
