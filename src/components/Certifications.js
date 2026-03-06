@@ -63,16 +63,23 @@ const Certifications = () => {
 
     const learning = [
         {
+            title: 'AI Infrastructure and Operations Fundamentals',
+            description: 'Exploring AI infrastructure patterns, MLOps, and operational deployment of AI systems at scale.',
+            progress: 60,
+            icon: '🧠',
+            category: 'AI / MLOps'
+        },
+        {
             title: 'Advanced Kubernetes',
             description: 'Deep diving into K8s operators, custom resources, and advanced networking',
-            progress: 5,
+            progress: 35,
             icon: '☸️',
             category: 'DevOps'
         },
         {
             title: 'Cyber Security Fundamentals',
             description: 'Learning the key concepts of cyber security',
-            progress: 10,
+            progress: 25,
             icon: '🔐',
             category: 'Security'
         }
@@ -173,7 +180,7 @@ const Certifications = () => {
                                         >
                                             {/* Credly-style shield icon */}
                                             <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
-                                                <path d="M12 1L3 5v6c0 5.25 3.75 10.15 9 11.25C17.25 21.15 21 16.25 21 11V5l-9-4zm-1 14l-3-3 1.4-1.4 1.6 1.6 4.6-4.6L17 9l-6 6z"/>
+                                                <path d="M12 1L3 5v6c0 5.25 3.75 10.15 9 11.25C17.25 21.15 21 16.25 21 11V5l-9-4zm-1 14l-3-3 1.4-1.4 1.6 1.6 4.6-4.6L17 9l-6 6z" />
                                             </svg>
                                             Credly Badge
                                         </a>

@@ -15,9 +15,9 @@ const CoreCompetencies = () => {
         {
             title: 'Infrastructure & DevOps',
             skills: [
-                'Cloud (AWS / Azure) & On Premises Server',
-                'Virtualization (Proxmox, QEMU, Hyper-V)',
-                'Containerization (Docker, LXC)',
+                'Cloud (AWS / Azure) & Virtualization',
+                'Proxmox, QEMU, Hyper-V',
+                'Docker, Kubernetes, ArgoCD',
                 'CI/CD Planning & Implementation',
                 'Automation & Bash Scripting'
             ]
@@ -37,8 +37,8 @@ const CoreCompetencies = () => {
             skills: [
                 'Node.js, Angular, React, .NET',
                 'C++, Qt Framework',
-                'Code Reviews (Angular & .NET)',
-                'Jira, Confluence, Git'
+                'Jira, Confluence, Git',
+                'Yocto / Custom Linux Distros'
             ]
         },
         {
@@ -51,12 +51,12 @@ const CoreCompetencies = () => {
             ]
         },
         {
-            title: 'Embedded & Systems',
+            title: 'AI & Agentic Development',
             skills: [
-                'Yocto Project Development',
-                'Custom Linux Distribution',
-                'Embedded Systems Architecture',
-                'System-level Programming'
+                'Agentic Development',
+                'AI Agent Development & Deployment',
+                'LLM Integration & Orchestration',
+                'Workflow Automation (n8n)'
             ]
         }
     ];

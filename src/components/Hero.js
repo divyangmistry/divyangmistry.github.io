@@ -36,8 +36,22 @@ const Hero = () => {
                         color: 'var(--color-primary)',
                         marginBottom: '0.5rem'
                     }}>
-                        Lead Product Engineer & DevOps Architect
+                        Lead Product Engineer & DevOps Architect | AI Solutions Consultant
                     </h2>
+
+                    <p style={{
+                        fontSize: '0.875rem',
+                        fontWeight: '600',
+                        color: 'white',
+                        background: 'var(--color-primary)',
+                        display: 'inline-block',
+                        padding: '0.3rem 1rem',
+                        borderRadius: '999px',
+                        marginBottom: '1.5rem',
+                        letterSpacing: '0.03em'
+                    }}>
+                        Open to Full-time · Part-time · Contract · Consultancy
+                    </p>
 
                     <p style={{
                         fontSize: '1.125rem',
@@ -46,7 +60,7 @@ const Hero = () => {
                         maxWidth: '600px',
                         margin: '0 auto 2.5rem'
                     }}>
-                        Product Engineer driving cybersecurity and SaaS solutions with 6+ years of experience in DevOps, infrastructure, and product leadership.
+                        Product Engineer & AI Solutions Consultant with 7+ years of experience driving cybersecurity, SaaS, and AI-powered solutions — specialising in DevOps, agentic AI development, and infrastructure architecture.
                     </p>
 
                     <div style={{

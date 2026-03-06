@@ -5,19 +5,30 @@ const CareerTimeline = () => {
 
     const timeline = [
         {
-            year: '2023 - Present',
-            title: 'Lead Product Engineer (Acting TPM) & DevOps Architect',
-            company: 'Arishti Info Labs',
+            year: 'Feb 2026 - Present',
+            title: 'Independent Consultant',
+            company: 'Self-Employed / Freelance',
             type: 'current',
             highlights: [
-                { label: 'Product Strategy & Execution:', text: 'Direct end-to-end product strategy for cybersecurity portfolio including "Advance Cyber Kiosk" and "Dorje" OT SIEM, ensuring alignment with market demands and business goals.' },
-                { label: 'Infrastructure & Security:', text: 'Configure enterprise-grade routers, firewalls, and OpenSource VPN solutions; implement Snort-based intrusion detection and system hardening protocols.' },
-                { label: 'Cross-Functional Leadership:', text: 'Lead and synchronize efforts across DevOps, Network Administration, Operations, and Customer Success teams; conduct Angular and .NET code reviews.' },
+                { label: 'AI & Agentic Development:', text: 'Designing and deploying LLM-integrated workflows and autonomous agents for business process automation.' },
+                { label: 'DevOps & Architecture:', text: 'Providing expert guidance on enterprise infrastructure, Proxmox virtualization, Kubernetes, and secure CI/CD pipelines.' },
+                { label: 'Product Strategy:', text: 'Consulting on end-to-end product lifecycles, cross-functional leadership, and agile delivery methodologies.' }
+            ]
+        },
+        {
+            year: 'June 2023 - Feb 2026',
+            title: 'Lead Product Engineer & DevOps Architect',
+            company: 'Arishti Info Labs',
+            type: 'milestone',
+            highlights: [
+                { label: 'Product Strategy & Execution:', text: 'Directed end-to-end product strategy for cybersecurity portfolio including "Advance Cyber Kiosk" and "Dorje" OT SIEM, ensuring alignment with market demands and business goals.' },
+                { label: 'Infrastructure & Security:', text: 'Configured enterprise-grade routers, firewalls, and OpenSource VPN solutions; implemented Snort-based intrusion detection and system hardening protocols.' },
+                { label: 'Cross-Functional Leadership:', text: 'Led and synchronized efforts across DevOps, Network Administration, Operations, and Customer Success teams; conducted Angular and .NET code reviews.' },
                 { label: 'R&D & Custom Linux:', text: 'Spearheaded R&D of security products; developed custom Linux distributions using Yocto for embedded cybersecurity appliances.' }
             ]
         },
         {
-            year: '2021 - 2023',
+            year: 'June 2021 - June 2023',
             title: 'Senior Software Engineer & Product Lead',
             company: 'Arishti Info Labs',
             type: 'milestone',
@@ -29,7 +40,7 @@ const CareerTimeline = () => {
             ]
         },
         {
-            year: '2020 - 2021',
+            year: 'Feb 2021 - June 2021',
             title: 'Software Developer',
             company: 'TechAvidus',
             type: 'regular',
@@ -39,7 +50,7 @@ const CareerTimeline = () => {
             ]
         },
         {
-            year: '2019 - 2020',
+            year: 'Oct 2019 - Feb 2021',
             title: 'Frontend Developer',
             company: 'Nimblechapps',
             type: 'regular',
@@ -48,7 +59,7 @@ const CareerTimeline = () => {
             ]
         },
         {
-            year: '2018 - 2019',
+            year: 'July 2018 - Oct 2019',
             title: 'Frontend Developer',
             company: 'Webelight Solutions',
             type: 'start',

@@ -52,6 +52,7 @@ const TechnicalSkills = () => {
             skills: [
                 { name: 'Docker', level: 85 },
                 { name: 'Kubernetes', level: 75 },
+                { name: 'ArgoCD', level: 70 },
                 { name: 'Jenkins', level: 80 },
                 { name: 'GitLab CI/CD', level: 75 },
                 { name: 'AWS', level: 70 },
@@ -97,6 +98,17 @@ const TechnicalSkills = () => {
                 { name: 'Photoshop', level: 75 },
                 { name: 'Illustrator', level: 70 },
                 { name: 'UI/UX Design', level: 80 }
+            ]
+        },
+        {
+            id: 'ai-agentic',
+            name: 'AI & Agentic Development',
+            icon: '🤖',
+            skills: [
+                { name: 'Agentic Development', level: 75 },
+                { name: 'AI Agent Development & Deployment', level: 70 },
+                { name: 'LLM Integration & Orchestration', level: 70 },
+                { name: 'Workflow Automation (n8n)', level: 75 }
             ]
         }
     ];
