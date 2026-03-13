@@ -1,114 +1,72 @@
 import React, { useState } from 'react';
 
 const TechnicalSkills = () => {
-    const [activeCategory, setActiveCategory] = useState(null);
+    const [activeCategory, setActiveCategory] = useState('ai-agentic');
 
     const skillCategories = [
-        {
-            id: 'frameworks',
-            name: 'Development Frameworks',
-            icon: '⚛️',
-            skills: [
-                { name: 'React', level: 85 },
-                { name: 'Angular', level: 80 },
-                { name: 'Node.js', level: 85 },
-                { name: '.NET Core', level: 65 },
-                { name: 'C++', level: 70 },
-                { name: 'Qt Framework', level: 65 },
-                { name: 'Ionic', level: 75 },
-                { name: 'Flutter', level: 50 }
-            ]
-        },
-        {
-            id: 'languages',
-            name: 'Development Languages',
-            icon: '💻',
-            skills: [
-                { name: 'JavaScript/TypeScript', level: 90 },
-                { name: 'Python', level: 75 },
-                { name: 'C/C++', level: 70 },
-                { name: 'C#', level: 65 },
-                { name: 'Bash/Shell', level: 80 },
-                { name: 'SQL', level: 70 }
-            ]
-        },
-        {
-            id: 'automation',
-            name: 'Automation & Scripting',
-            icon: '🤖',
-            skills: [
-                { name: 'Bash Scripting', level: 85 },
-                { name: 'PowerShell Scripting', level: 75 },
-                { name: 'Ansible', level: 70 },
-                { name: 'Python Automation', level: 80 },
-                { name: 'Yocto Project', level: 75 },
-                { name: 'Build Systems', level: 70 }
-            ]
-        },
-        {
-            id: 'devops',
-            name: 'DevOps & Cloud',
-            icon: '☁️',
-            skills: [
-                { name: 'Docker', level: 85 },
-                { name: 'Kubernetes', level: 75 },
-                { name: 'ArgoCD', level: 70 },
-                { name: 'Jenkins', level: 80 },
-                { name: 'GitLab CI/CD', level: 75 },
-                { name: 'AWS', level: 70 },
-                { name: 'Azure', level: 65 },
-                { name: 'Proxmox', level: 80 },
-                { name: 'QEMU/KVM', level: 75 },
-                { name: 'Hyper-V', level: 70 }
-            ]
-        },
-        {
-            id: 'networking',
-            name: 'Networking & Security',
-            icon: '🔒',
-            skills: [
-                { name: 'Enterprise Routers & Firewalls', level: 85 },
-                { name: 'VPN Configuration', level: 80 },
-                { name: 'Network Architecture', level: 85 },
-                { name: 'Snort IDS/IPS', level: 75 },
-                { name: 'Security Hardening', level: 80 },
-                { name: 'SIEM Systems', level: 70 }
-            ]
-        },
-        {
-            id: 'project-mgmt',
-            name: 'Project Management',
-            icon: '📊',
-            skills: [
-                { name: 'Agile/Scrum', level: 85 },
-                { name: 'Jira', level: 90 },
-                { name: 'Confluence', level: 85 },
-                { name: 'Roadmap Planning', level: 80 },
-                { name: 'Stakeholder Management', level: 75 },
-                { name: 'Team Leadership', level: 80 }
-            ]
-        },
-        {
-            id: 'creative',
-            name: 'Creative Tools & Design',
-            icon: '🎨',
-            skills: [
-                { name: 'Figma', level: 85 },
-                { name: 'Adobe XD', level: 80 },
-                { name: 'Photoshop', level: 75 },
-                { name: 'Illustrator', level: 70 },
-                { name: 'UI/UX Design', level: 80 }
-            ]
-        },
         {
             id: 'ai-agentic',
             name: 'AI & Agentic Development',
             icon: '🤖',
             skills: [
-                { name: 'Agentic Development', level: 75 },
-                { name: 'AI Agent Development & Deployment', level: 70 },
-                { name: 'LLM Integration & Orchestration', level: 70 },
-                { name: 'Workflow Automation (n8n)', level: 75 }
+                { name: 'Google GenAI SDK', level: 90 },
+                { name: 'AI Agent Development', level: 85 },
+                { name: 'LLM Integration & Orchestration', level: 85 },
+                { name: 'LangChain & RAG Pipelines', level: 80 },
+                { name: 'Vector DBs', level: 75 },
+                { name: 'Workflow Automation (n8n)', level: 85 }
+            ]
+        },
+        {
+            id: 'infra-virt',
+            name: 'Infrastructure & Virtualization',
+            icon: '☁️',
+            skills: [
+                { name: 'Proxmox Virtualization', level: 90 },
+                { name: 'QEMU/KVM & Hyper-V', level: 85 },
+                { name: 'Yocto Project (Custom Linux)', level: 80 },
+                { name: 'Docker & Kubernetes', level: 85 },
+                { name: 'CI/CD (Jenkins, GitLab CI)', level: 85 },
+                { name: 'Infrastructure as Code', level: 75 }
+            ]
+        },
+        {
+            id: 'networking-security',
+            name: 'Networking & Security',
+            icon: '🔒',
+            skills: [
+                { name: 'Enterprise Routers & Firewalls', level: 90 },
+                { name: 'VPN Configuration', level: 85 },
+                { name: 'Security Hardening', level: 85 },
+                { name: 'Snort IDS/IPS', level: 80 },
+                { name: 'SIEM Systems (Dorje)', level: 80 },
+                { name: 'Network Architecture', level: 85 }
+            ]
+        },
+        {
+            id: 'product-mgmt',
+            name: 'Product & Project Management',
+            icon: '📊',
+            skills: [
+                { name: 'Agile/Scrum Leadership', level: 90 },
+                { name: 'Product Lifecycle (SDLC)', level: 85 },
+                { name: 'Roadmap Planning', level: 85 },
+                { name: 'Stakeholder Management', level: 85 },
+                { name: 'Technical Leadership', level: 90 },
+                { name: 'Jira & Confluence', level: 90 }
+            ]
+        },
+        {
+            id: 'languages-dev',
+            name: 'Languages & Development',
+            icon: '💻',
+            skills: [
+                { name: 'JavaScript / TypeScript', level: 90 },
+                { name: 'Python (AI & Automation)', level: 85 },
+                { name: 'React / Angular / Node.js', level: 85 },
+                { name: 'C++ / Qt Framework', level: 75 },
+                { name: 'Bash / PowerShell', level: 85 },
+                { name: 'SQL & NoSQL', level: 80 }
             ]
         }
     ];
@@ -121,20 +79,27 @@ const TechnicalSkills = () => {
         <section className="section" id="skills" style={{ background: 'var(--color-bg-primary)' }}>
             <div className="container">
                 <div className="animate-on-scroll">
-                    <h2 className="section-title">Technical Skills</h2>
+                    <h2 className="section-title">Technical Expertise</h2>
                     <p style={{
                         maxWidth: '900px',
-                        margin: '0 0 2rem 0',
+                        margin: '0 0 3rem 0',
                         color: 'var(--color-slate-700)',
-                        fontSize: '1rem'
+                        fontSize: '1rem',
+                        lineHeight: '1.6'
                     }}>
-                        With a robust blend of technical expertise and project management acumen, I bring a comprehensive skill set covering development, DevOps, networking, security, and product leadership.
+                        Bridging the gap between technical engineering and business strategy with a comprehensive skill set across AI development, DevOps infrastructure, and product leadership.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 stagger-children" style={{ maxWidth: '1000px', margin: '0 auto' }}>
+                <div style={{ 
+                    display: 'grid', 
+                    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                    gap: '1.5rem',
+                    maxWidth: '1200px',
+                    margin: '0 auto'
+                }}>
                     {skillCategories.map((category) => (
-                        <div key={category.id}>
+                        <div key={category.id} className="stagger-children">
                             <button
                                 onClick={() => toggleCategory(category.id)}
                                 className="card"
@@ -148,30 +113,25 @@ const TechnicalSkills = () => {
                                     transition: 'all var(--transition-base)',
                                     display: 'flex',
                                     alignItems: 'center',
-                                    gap: '1rem'
+                                    gap: '1rem',
+                                    padding: '1.25rem',
+                                    marginBottom: '1rem'
                                 }}
                             >
-                                <span style={{ fontSize: '2rem' }}>{category.icon}</span>
+                                <span style={{ fontSize: '1.5rem' }}>{category.icon}</span>
                                 <div style={{ flex: 1 }}>
                                     <h4 style={{
-                                        fontSize: '1rem',
+                                        fontSize: '0.925rem',
                                         fontWeight: '700',
                                         margin: 0,
                                         color: activeCategory === category.id ? 'white' : 'var(--color-slate-900)'
                                     }}>
                                         {category.name}
                                     </h4>
-                                    <p style={{
-                                        margin: 0,
-                                        fontSize: '0.875rem',
-                                        opacity: 0.7
-                                    }}>
-                                        {category.skills.length} skills
-                                    </p>
                                 </div>
                                 <svg
-                                    width="20"
-                                    height="20"
+                                    width="16"
+                                    height="16"
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -184,59 +144,64 @@ const TechnicalSkills = () => {
                                 </svg>
                             </button>
 
-                            {activeCategory === category.id && (
-                                <div
-                                    style={{
-                                        marginTop: '1rem',
-                                        padding: '1.5rem',
-                                        background: 'var(--color-card-bg)',
-                                        border: '1px solid var(--border-color)',
-                                        borderRadius: 'var(--border-radius)',
-                                        animation: 'fadeIn 0.3s ease'
-                                    }}
-                                >
-                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                        {category.skills.map((skill, index) => (
-                                            <div key={index}>
-                                                <div style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'space-between',
-                                                    marginBottom: '0.5rem'
+                            <div
+                                style={{
+                                    maxHeight: activeCategory === category.id ? '500px' : '0',
+                                    overflow: 'hidden',
+                                    transition: 'all 0.4s ease-in-out',
+                                    opacity: activeCategory === category.id ? 1 : 0,
+                                    padding: activeCategory === category.id ? '0.5rem 0 1.5rem' : '0'
+                                }}
+                            >
+                                <div style={{ 
+                                    display: 'flex', 
+                                    flexDirection: 'column', 
+                                    gap: '1.25rem',
+                                    padding: '1rem',
+                                    background: 'var(--color-card-bg)',
+                                    borderRadius: 'var(--border-radius)',
+                                    border: '1px solid var(--border-color)'
+                                }}>
+                                    {category.skills.map((skill, index) => (
+                                        <div key={index}>
+                                            <div style={{
+                                                display: 'flex',
+                                                justifyContent: 'space-between',
+                                                marginBottom: '0.5rem'
+                                            }}>
+                                                <span style={{
+                                                    fontSize: '0.8rem',
+                                                    fontWeight: '600',
+                                                    color: 'var(--color-slate-800)'
                                                 }}>
-                                                    <span style={{
-                                                        fontSize: '0.875rem',
-                                                        fontWeight: '600',
-                                                        color: 'var(--color-slate-800)'
-                                                    }}>
-                                                        {skill.name}
-                                                    </span>
-                                                    <span style={{
-                                                        fontSize: '0.875rem',
-                                                        fontWeight: '600',
-                                                        color: 'var(--color-primary)'
-                                                    }}>
-                                                        {skill.level}%
-                                                    </span>
-                                                </div>
-                                                <div style={{
-                                                    height: '6px',
-                                                    background: 'var(--color-slate-200)',
-                                                    borderRadius: '3px',
-                                                    overflow: 'hidden'
+                                                    {skill.name}
+                                                </span>
+                                                <span style={{
+                                                    fontSize: '0.8rem',
+                                                    fontWeight: '700',
+                                                    color: 'var(--color-primary)'
                                                 }}>
-                                                    <div style={{
-                                                        height: '100%',
-                                                        width: `${skill.level}%`,
-                                                        background: `linear-gradient(90deg, var(--color-primary) 0%, var(--color-primary-light) 100%)`,
-                                                        borderRadius: '3px',
-                                                        transition: 'width 0.6s ease'
-                                                    }} />
-                                                </div>
+                                                    {skill.level}%
+                                                </span>
                                             </div>
-                                        ))}
-                                    </div>
+                                            <div style={{
+                                                height: '4px',
+                                                background: 'var(--color-slate-100)',
+                                                borderRadius: '2px',
+                                                overflow: 'hidden'
+                                            }}>
+                                                <div style={{
+                                                    height: '100%',
+                                                    width: `${skill.level}%`,
+                                                    background: `var(--color-primary)`,
+                                                    borderRadius: '2px',
+                                                    transition: 'width 1s cubic-bezier(0.17, 0.67, 0.83, 0.67)'
+                                                }} />
+                                            </div>
+                                        </div>
+                                    ))}
                                 </div>
-                            )}
+                            </div>
                         </div>
                     ))}
                 </div>

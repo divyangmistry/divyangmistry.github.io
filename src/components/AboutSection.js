@@ -14,21 +14,7 @@ const AboutSection = () => {
                         textAlign: 'justify'
                     }}>
                         <p>
-                            <strong style={{ color: 'var(--color-slate-900)' }}>Lead Product Engineer</strong>,{' '}
-                            <strong style={{ color: 'var(--color-slate-900)' }}>DevOps Architect</strong>, and{' '}
-                            <strong style={{ color: 'var(--color-slate-900)' }}>AI Solutions Consultant</strong> with over{' '}
-                            <strong>7 years of experience</strong> driving the full product lifecycle of complex cybersecurity,
-                            SaaS, and AI-powered solutions. Currently operating as an independent consultant, bridging technical
-                            engineering and business strategy — leading cross-functional teams across{' '}
-                            <strong>DevOps</strong>, <strong>Agentic AI Development</strong>,{' '}
-                            <strong>Network Administration</strong>, and <strong>Customer Success</strong>.
-                        </p>
-                        <p>
-                            Specialized in enterprise-grade infrastructure, virtualization (Proxmox, QEMU, Hyper-V), custom Linux
-                            distribution development (Yocto), and security hardening. Expert in CI/CD automation, AI agent
-                            development & deployment, Kubernetes orchestration, and establishing cybersecurity standards while
-                            delivering high-performance products. Certified in{' '}
-                            <strong>Google Project Management</strong> with a proven track record of on-time, on-budget delivery.
+                            Agentic AI Developer & Lead Software Engineer with over 7 years of experience driving the full product lifecycle of complex cybersecurity, SaaS, and AI-powered solutions. Specialized in building autonomous AI agents using <strong style={{ color: 'var(--color-slate-900)' }}>Google GenAI SDK</strong> and <strong style={{ color: 'var(--color-slate-900)' }}>Model Context Protocol (MCP)</strong> to automate enterprise workflows. Expert in LLM orchestration, RAG pipelines (LangChain), Proxmox virtualization, and security hardening. I bridge technical engineering and business strategy, leading cross-functional teams to deliver high-performance, AI-driven products while maintaining rigorous cybersecurity standards.
                         </p>
                     </div>
                 </div>

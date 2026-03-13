@@ -1,0 +1,207 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Divyang Mistry",
+    "label": "AI Agent Developer | Lead Software Engineer",
+    "email": "divyangmistry7777@gmail.com",
+    "phone": "+91 7777901836",
+    "summary": "Agentic AI Developer & Lead Software Engineer with over 7 years of experience driving the full product lifecycle of complex cybersecurity, SaaS, and AI-powered solutions. Specialized in building autonomous AI agents using Google GenAI SDK and Model Context Protocol (MCP) to automate enterprise workflows. Expert in LLM orchestration, RAG pipelines (LangChain), Proxmox virtualization, and security hardening. I bridge technical engineering and business strategy, leading cross-functional teams to deliver high-performance, AI-driven products while maintaining rigorous cybersecurity standards.",
+    "location": {
+      "city": "Adalaj",
+      "region": "Gujarat",
+      "countryCode": "IN",
+      "address": "Adalaj, Gandhinagar, Gujarat"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "Arishti Info Labs",
+      "position": "Lead Software Engineer",
+      "startDate": "2023-06",
+      "endDate": "",
+      "summary": "Operating as an independent consultant leading software strategy and DevOps engineering for a cybersecurity portfolio.",
+      "highlights": [
+        "Product Strategy & Execution: Direct end-to-end product strategy for cybersecurity portfolio including 'Advance Cyber Kiosk' and 'Dorje' OT SIEM, ensuring alignment with market demands and business goals.",
+        "DevOps Engineering: Design and implement enterprise DevOps infrastructure using Proxmox virtualization, QEMU/KVM, and automated CI/CD pipelines with Jenkins and Docker orchestration.",
+        "Infrastructure & Security: Configure enterprise-grade routers, firewalls, and OpenSource VPN solutions; implement Snort-based intrusion detection and system hardening protocols.",
+        "Cross-Functional Leadership: Lead and synchronize efforts across DevOps, Network Administration, Operations, and Customer Success teams; conduct Angular and .NET code reviews.",
+        "Client & Vendor Management: Handle client meetings, product deployments, vendor coordination, and ensure delivery of technical solutions aligned with revenue targets.",
+        "Monitoring & Automation: Deploy Grafana and Prometheus for comprehensive infrastructure monitoring; create Bash automation scripts for operational efficiency."
+      ]
+    },
+    {
+      "name": "Arishti Info Labs",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-06",
+      "endDate": "2023-06",
+      "summary": "Led R&D and product delivery for security products including custom Linux distributions and the Dorje SIEM platform.",
+      "highlights": [
+        "R&D & Custom Linux: Spearheaded R&D of security products; developed custom Linux distributions using Yocto for embedded cybersecurity appliances.",
+        "Product Delivery (Cyber Kiosk): Managed full lifecycle of hardware-integrated forensic kiosk for sanitizing mobile/storage devices with frontend UX and backend logic.",
+        "Product Delivery (Dorje SIEM): Led engineering of OT traffic monitoring tool with backend logic and frontend asset detection for PLC and HMI management.",
+        "CI/CD Implementation: Planned and created CI/CD pipelines for automated testing, building, and deployment of security applications."
+      ]
+    },
+    {
+      "name": "TechAvidus",
+      "position": "Software Developer",
+      "startDate": "2021-02",
+      "endDate": "2021-06",
+      "summary": "Collaborated on scalable web applications for enterprise clients.",
+      "highlights": [
+        "Collaborated on scalable Node.js and Angular applications for enterprise clients with focus on performance optimization.",
+        "Provided technical mentorship to junior developers, improving team velocity and establishing code quality standards."
+      ]
+    },
+    {
+      "name": "Nimblechapps",
+      "position": "Frontend Developer",
+      "startDate": "2019-10",
+      "endDate": "2021-02",
+      "summary": "Executed frontend development for diverse client projects.",
+      "highlights": [
+        "Executed frontend development for diverse client projects using React and Node.js with modern tooling."
+      ]
+    },
+    {
+      "name": "Webelight Solutions",
+      "position": "Frontend Developer",
+      "startDate": "2018-07",
+      "endDate": "2019-10",
+      "summary": "Developed responsive web interfaces using Angular frameworks.",
+      "highlights": [
+        "Developed responsive web interfaces and optimized application performance using Angular frameworks."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Saffrony Institute of Technology",
+      "area": "Information Technology",
+      "studyType": "B.E.",
+      "startDate": "2014",
+      "endDate": "2018"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Google Project Management Certificate",
+      "issuer": "Google · Coursera",
+      "date": "2026",
+      "summary": "6-Course Specialisation: Foundations of PM · Project Initiation · Project Planning · Project Execution · Agile Project Management · Capstone"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Product & Leadership",
+      "keywords": [
+        "Agile/Scrum & Roadmap Planning",
+        "Cross-functional Team Leadership",
+        "Client Meeting & Deployment Handling",
+        "Customer Success & Vendor Management",
+        "Revenue & Resource Optimization"
+      ]
+    },
+    {
+      "name": "Infrastructure & DevOps",
+      "keywords": [
+        "Cloud (AWS / Azure) & Virtualization",
+        "Proxmox, QEMU, Hyper-V",
+        "Docker, Kubernetes, ArgoCD",
+        "CI/CD Planning & Implementation",
+        "Automation & Bash Scripting"
+      ]
+    },
+    {
+      "name": "Security & Networking",
+      "keywords": [
+        "Enterprise Router & Firewall Setup",
+        "SIEM & OT Security (Snort, Dorje)",
+        "OpenSource VPN Configuration",
+        "System Hardware/Software Hardening",
+        "Cybersecurity Standards & Policies"
+      ]
+    },
+    {
+      "name": "AI & Agentic Development",
+      "keywords": [
+        "Multi-Agent Orchestration",
+        "AI Agent Development & Deployment",
+        "Google ADK (Agent Development Kit)",
+        "Model Context Protocol (MCP)",
+        "LangChain / LangGraph",
+        "Google Gemini / OpenAI GPT",
+        "LLM Integration & Orchestration",
+        "RAG Pipelines & Vector Databases",
+        "Tool / Function Calling",
+        "Prompt Engineering",
+        "Workflow Automation (n8n)",
+        "Ollama (Local LLMs)"
+      ]
+    },
+    {
+      "name": "Monitoring & Analytics",
+      "keywords": [
+        "Grafana & Prometheus",
+        "Infrastructure Monitoring",
+        "Performance Optimization",
+        "Alert Management"
+      ]
+    },
+    {
+      "name": "Development & Tools",
+      "keywords": [
+        "Node.js",
+        "Angular",
+        "React",
+        ".NET",
+        "C++",
+        "Qt Framework",
+        "Jira",
+        "Confluence",
+        "Git",
+        "Yocto / Custom Linux Distros"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Custom Linux Distribution",
+      "description": "Developed customized Linux distributions using Yocto for embedded cybersecurity appliances with hardware-level security hardening."
+    },
+    {
+      "name": "Advance Cyber Kiosk",
+      "description": "Led development and delivery as Product Lead for hardware-integrated forensic kiosk, managing full-stack development, UI/UX design, and deployment to government and enterprise clients."
+    },
+    {
+      "name": "Private Network Infrastructure",
+      "description": "Architected secure internal networking using Headscale, Keycloak authentication, and OpenSource VPN solutions."
+    },
+    {
+      "name": "Enterprise Virtualization",
+      "description": "Deployed Proxmox-based virtualization infrastructure with QEMU/KVM for scalable development and production environments."
+    },
+    {
+      "name": "CI/CD Automation Platform",
+      "description": "Designed and implemented end-to-end CI/CD pipelines with Jenkins, Docker, and Kubernetes for automated deployment workflows."
+    },
+    {
+      "name": "EPR Waste Management Portal",
+      "description": "Managed planning and full-stack development of portal tracing product lifecycles from manufacturing to recycling."
+    },
+    {
+      "name": "Docker AI Agent (MCP-based)",
+      "description": "Built an autonomous AI agent using Google GenAI SDK and Model Context Protocol (MCP) to orchestrate Docker operations. The agent reasons over tasks, selects tools dynamically, and executes multi-step workflows — enabling natural language control of containers, images, and compose stacks without manual CLI intervention."
+    },
+    {
+      "name": "AI Workflow Automation (n8n)",
+      "description": "Designed and deployed intelligent automation workflows using n8n with integrated LLM nodes, enabling automated business processes, document processing pipelines, and AI-assisted decision routing across enterprise systems."
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-03-11T00:00:00"
+  }
+}

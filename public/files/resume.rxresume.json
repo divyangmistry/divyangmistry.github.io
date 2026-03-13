@@ -1,0 +1,557 @@
+{
+  "picture": {
+    "hidden": true,
+    "url": "",
+    "size": 64,
+    "rotation": 0,
+    "aspectRatio": 1,
+    "borderRadius": 0,
+    "borderColor": "rgba(0, 0, 0, 0)",
+    "borderWidth": 0,
+    "shadowColor": "rgba(0, 0, 0, 0)",
+    "shadowWidth": 0
+  },
+  "basics": {
+    "name": "Divyang Mistry",
+    "headline": "AI Agent Developer | Lead Software Engineer",
+    "email": "divyangmistry7777@gmail.com",
+    "phone": "+91 7777901836",
+    "location": "Adalaj, Gandhinagar, Gujarat, India",
+    "website": {
+      "url": "",
+      "label": ""
+    },
+    "customFields": []
+  },
+  "summary": {
+    "title": "Summary",
+    "columns": 1,
+    "hidden": false,
+    "content": "<p>Agentic AI Developer and Lead Software Engineer with over 7 years of experience driving the full product lifecycle of complex cybersecurity, SaaS, and AI-powered solutions. Specialized in building autonomous AI agents using <strong>Google GenAI SDK</strong> and <strong>Model Context Protocol (MCP)</strong> to automate enterprise workflows. Expert in LLM orchestration, RAG pipelines (LangChain), Proxmox virtualization, and security hardening. I bridge technical engineering and business strategy, leading cross-functional teams to deliver high-performance, AI-driven products while maintaining rigorous cybersecurity standards.</p>"
+  },
+  "sections": {
+    "profiles": {
+      "title": "Profiles",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "experience": {
+      "title": "Experience",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "exp-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Arishti Info Labs",
+          "position": "Lead Software Engineer",
+          "location": "Adalaj, Gujarat, India",
+          "period": "Jun 2023 – Present",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><strong>AI Agent Orchestration:</strong> Developed and deployed autonomous AI agents using Google GenAI SDK and MCP, orchestrating multi-step Docker and system-level workflows via natural language reasoning.</li><li><strong>Product Strategy &amp; Execution:</strong> Direct end-to-end product strategy for cybersecurity portfolio including 'Advance Cyber Kiosk' and 'Dorje' OT SIEM, ensuring alignment with market demands and business goals.</li><li><strong>DevOps Engineering:</strong> Design and implement enterprise DevOps infrastructure using Proxmox virtualization, QEMU/KVM, and automated CI/CD pipelines with Jenkins and Docker orchestration.</li><li><strong>Infrastructure &amp; Security:</strong> Configure enterprise-grade routers, firewalls, and OpenSource VPN solutions; implement Snort-based intrusion detection and system hardening protocols.</li><li><strong>Cross-Functional Leadership:</strong> Lead and synchronize efforts across DevOps, Network Administration, Operations, and Customer Success teams; conduct Angular and .NET code reviews.</li><li><strong>Client &amp; Vendor Management:</strong> Handle client meetings, product deployments, vendor coordination, and ensure delivery of technical solutions aligned with revenue targets.</li><li><strong>Monitoring &amp; Automation:</strong> Deploy Grafana and Prometheus for comprehensive infrastructure monitoring; create Bash automation scripts for operational efficiency.</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "exp-002",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Arishti Info Labs",
+          "position": "Senior Software Engineer & Product Lead",
+          "location": "Adalaj, Gujarat, India",
+          "period": "Jun 2021 – Jun 2023",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li><strong>R&amp;D &amp; Custom Linux:</strong> Spearheaded R&amp;D of security products; developed custom Linux distributions using Yocto for embedded cybersecurity appliances.</li><li><strong>Product Delivery (Cyber Kiosk):</strong> Managed full lifecycle of hardware-integrated forensic kiosk for sanitizing mobile/storage devices with frontend UX and backend logic.</li><li><strong>Product Delivery (Dorje SIEM):</strong> Led engineering of OT traffic monitoring tool with backend logic and frontend asset detection for PLC and HMI management.</li><li><strong>CI/CD Implementation:</strong> Planned and created CI/CD pipelines for automated testing, building, and deployment of security applications.</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "exp-003",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "TechAvidus",
+          "position": "Software Developer",
+          "location": "",
+          "period": "Feb 2021 – Jun 2021",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li>Collaborated on scalable Node.js and Angular applications for enterprise clients with focus on performance optimization.</li><li>Provided technical mentorship to junior developers, improving team velocity and establishing code quality standards.</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "exp-004",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Nimblechapps",
+          "position": "Frontend Developer",
+          "location": "",
+          "period": "Oct 2019 – Feb 2021",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li>Executed frontend development for diverse client projects using React and Node.js with modern tooling.</li></ul>",
+          "roles": []
+        },
+        {
+          "id": "exp-005",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "company": "Webelight Solutions",
+          "position": "Frontend Developer",
+          "location": "",
+          "period": "Jul 2018 – Oct 2019",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<ul><li>Developed responsive web interfaces and optimized application performance using Angular frameworks.</li></ul>",
+          "roles": []
+        }
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "edu-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "school": "Saffrony Institute of Technology",
+          "degree": "B.E.",
+          "area": "Information Technology",
+          "grade": "",
+          "location": "",
+          "period": "2014 – 2018",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": ""
+        }
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "proj-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Custom Linux Distribution",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Developed customized Linux distributions using Yocto for embedded cybersecurity appliances with hardware-level security hardening.</p>"
+        },
+        {
+          "id": "proj-002",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Advance Cyber Kiosk",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Led development and delivery as Product Lead for hardware-integrated forensic kiosk, managing full-stack development, UI/UX design, and deployment to government and enterprise clients.</p>"
+        },
+        {
+          "id": "proj-003",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Private Network Infrastructure",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Architected secure internal networking using Headscale, Keycloak authentication, and OpenSource VPN solutions.</p>"
+        },
+        {
+          "id": "proj-004",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Enterprise Virtualization",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Deployed Proxmox-based virtualization infrastructure with QEMU/KVM for scalable development and production environments.</p>"
+        },
+        {
+          "id": "proj-005",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "CI/CD Automation Platform",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Designed and implemented end-to-end CI/CD pipelines with Jenkins, Docker, and Kubernetes for automated deployment workflows.</p>"
+        },
+        {
+          "id": "proj-006",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "EPR Waste Management Portal",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Managed planning and full-stack development of portal tracing product lifecycles from manufacturing to recycling.</p>"
+        },
+        {
+          "id": "proj-007",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "Docker AI Agent (MCP-based)",
+          "period": "2025",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Built an autonomous AI agent using <strong>Google GenAI SDK</strong> and <strong>Model Context Protocol (MCP)</strong> to orchestrate Docker operations. The agent reasons over tasks, selects tools dynamically, and executes multi-step workflows — enabling natural language control of containers, images, and compose stacks without manual CLI intervention.</p>"
+        },
+        {
+          "id": "proj-008",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "name": "AI Workflow Automation (n8n)",
+          "period": "",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>Designed and deployed intelligent automation workflows using <strong>n8n</strong> with integrated LLM nodes, enabling automated business processes, document processing pipelines, and AI-assisted decision routing across enterprise systems.</p>"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "columns": 2,
+      "hidden": false,
+      "items": [
+        {
+          "id": "skill-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "Product & Leadership",
+          "proficiency": "Expert",
+          "level": 5,
+          "keywords": [
+            "Agile/Scrum & Roadmap Planning",
+            "Cross-functional Team Leadership",
+            "Client Meeting & Deployment Handling",
+            "Customer Success & Vendor Management",
+            "Revenue & Resource Optimization"
+          ]
+        },
+        {
+          "id": "skill-002",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "Infrastructure & DevOps",
+          "proficiency": "Expert",
+          "level": 5,
+          "keywords": [
+            "Cloud (AWS / Azure) & Virtualization",
+            "Proxmox, QEMU, Hyper-V",
+            "Docker, Kubernetes, ArgoCD",
+            "CI/CD Planning & Implementation",
+            "Automation & Bash Scripting"
+          ]
+        },
+        {
+          "id": "skill-003",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "Security & Networking",
+          "proficiency": "Advanced",
+          "level": 4,
+          "keywords": [
+            "Enterprise Router & Firewall Setup",
+            "SIEM & OT Security (Snort, Dorje)",
+            "OpenSource VPN Configuration",
+            "System Hardware/Software Hardening",
+            "Cybersecurity Standards & Policies"
+          ]
+        },
+        {
+          "id": "skill-004",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "AI & Agentic Development",
+          "proficiency": "Advanced",
+          "level": 4,
+          "keywords": [
+            "Multi-Agent Orchestration",
+            "AI Agent Development & Deployment",
+            "Google ADK (Agent Development Kit)",
+            "Model Context Protocol (MCP)",
+            "LangChain / LangGraph",
+            "Google Gemini / OpenAI GPT",
+            "LLM Integration & Orchestration",
+            "RAG Pipelines & Vector Databases",
+            "Tool / Function Calling",
+            "Prompt Engineering",
+            "Workflow Automation (n8n)",
+            "Ollama (Local LLMs)"
+          ]
+        },
+        {
+          "id": "skill-005",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "Monitoring & Analytics",
+          "proficiency": "Advanced",
+          "level": 4,
+          "keywords": [
+            "Grafana & Prometheus",
+            "Infrastructure Monitoring",
+            "Performance Optimization",
+            "Alert Management"
+          ]
+        },
+        {
+          "id": "skill-006",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "icon": "",
+          "name": "Development & Tools",
+          "proficiency": "Advanced",
+          "level": 4,
+          "keywords": [
+            "Node.js",
+            "Angular",
+            "React",
+            ".NET",
+            "C++",
+            "Qt Framework",
+            "Jira",
+            "Confluence",
+            "Git",
+            "Yocto / Custom Linux Distros"
+          ]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "lang-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "language": "English",
+          "fluency": "Professional",
+          "level": 4
+        },
+        {
+          "id": "lang-002",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "language": "Gujarati",
+          "fluency": "Native",
+          "level": 5
+        },
+        {
+          "id": "lang-003",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "language": "Hindi",
+          "fluency": "Fluent",
+          "level": 5
+        }
+      ]
+    },
+    "interests": {
+      "title": "Interests",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "awards": {
+      "title": "Awards",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "certifications": {
+      "title": "Certifications",
+      "columns": 1,
+      "hidden": false,
+      "items": [
+        {
+          "id": "cert-001",
+          "hidden": false,
+          "options": {
+            "showLinkInTitle": false
+          },
+          "title": "Google Project Management Certificate",
+          "issuer": "Google · Coursera",
+          "date": "2026",
+          "website": {
+            "url": "",
+            "label": ""
+          },
+          "description": "<p>6-Course Specialisation: Foundations of PM · Project Initiation · Project Planning · Project Execution · Agile Project Management · Capstone</p>"
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "volunteer": {
+      "title": "Volunteering",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    },
+    "references": {
+      "title": "References",
+      "columns": 1,
+      "hidden": true,
+      "items": []
+    }
+  },
+  "customSections": [],
+  "metadata": {
+    "template": "onyx",
+    "layout": {
+      "sidebarWidth": 33,
+      "pages": [
+        {
+          "fullWidth": false,
+          "main": [
+            "summary",
+            "experience",
+            "projects"
+          ],
+          "sidebar": [
+            "skills",
+            "certifications",
+            "education",
+            "languages"
+          ]
+        }
+      ]
+    },
+    "css": {
+      "enabled": false,
+      "value": ""
+    },
+    "page": {
+      "gapX": 24,
+      "gapY": 24,
+      "marginX": 36,
+      "marginY": 36,
+      "format": "a4",
+      "locale": "en-US",
+      "hideIcons": false
+    },
+    "design": {
+      "level": {
+        "icon": "",
+        "type": "circle"
+      },
+      "colors": {
+        "primary": "rgba(30, 100, 200, 1)",
+        "text": "rgba(0, 0, 0, 1)",
+        "background": "rgba(255, 255, 255, 1)"
+      }
+    },
+    "typography": {
+      "body": {
+        "fontFamily": "Inter",
+        "fontWeights": [
+          "400"
+        ],
+        "fontSize": 11,
+        "lineHeight": 1.5
+      },
+      "heading": {
+        "fontFamily": "Inter",
+        "fontWeights": [
+          "600"
+        ],
+        "fontSize": 13,
+        "lineHeight": 1.5
+      }
+    },
+    "notes": ""
+  }
+}

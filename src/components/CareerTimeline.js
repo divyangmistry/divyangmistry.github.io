@@ -10,33 +10,31 @@ const CareerTimeline = () => {
             company: 'Self-Employed / Freelance',
             type: 'current',
             highlights: [
-                { label: 'AI & Agentic Development:', text: 'Designing and deploying LLM-integrated workflows and autonomous agents for business process automation.' },
-                { label: 'DevOps & Architecture:', text: 'Providing expert guidance on enterprise infrastructure, Proxmox virtualization, Kubernetes, and secure CI/CD pipelines.' },
-                { label: 'Product Strategy:', text: 'Consulting on end-to-end product lifecycles, cross-functional leadership, and agile delivery methodologies.' }
+                { label: 'Agentic AI Strategy:', text: 'Developing custom AI agents using Google GenAI SDK and Model Context Protocol (MCP) for enterprise automation.' },
+                { label: 'Technical Consultancy:', text: 'Advising on DevOps Engineering, Proxmox virtualization, and secure infrastructure design.' },
+                { label: 'Workflow Engineering:', text: 'Designing self-healing monitoring systems and complex automations using n8n and LLM orchestration.' }
             ]
         },
         {
             year: 'June 2023 - Feb 2026',
-            title: 'Lead Product Engineer & DevOps Architect',
+            title: 'Lead Software Engineer',
             company: 'Arishti Info Labs',
             type: 'milestone',
             highlights: [
-                { label: 'Product Strategy & Execution:', text: 'Directed end-to-end product strategy for cybersecurity portfolio including "Advance Cyber Kiosk" and "Dorje" OT SIEM, ensuring alignment with market demands and business goals.' },
-                { label: 'Infrastructure & Security:', text: 'Configured enterprise-grade routers, firewalls, and OpenSource VPN solutions; implemented Snort-based intrusion detection and system hardening protocols.' },
-                { label: 'Cross-Functional Leadership:', text: 'Led and synchronized efforts across DevOps, Network Administration, Operations, and Customer Success teams; conducted Angular and .NET code reviews.' },
-                { label: 'R&D & Custom Linux:', text: 'Spearheaded R&D of security products; developed custom Linux distributions using Yocto for embedded cybersecurity appliances.' }
+                { label: 'Product Leadership:', text: 'Directed the full SDLC for "Dorje" OT SIEM and cybersecurity product portfolio, aligning engineering with business strategy.' },
+                { label: 'DevOps & Infrastructure:', text: 'Architected enterprise virtualization solutions using Proxmox and hardended Linux environments.' },
+                { label: 'R&D Innovation:', text: 'Spearheaded development of custom cybersecurity appliances using the Yocto Project for embedded Linux.' }
             ]
         },
         {
             year: 'June 2021 - June 2023',
-            title: 'Senior Software Engineer & Product Lead',
+            title: 'Senior Software Engineer',
             company: 'Arishti Info Labs',
             type: 'milestone',
             highlights: [
-                { label: 'DevOps Architecture:', text: 'Design and implement enterprise DevOps infrastructure using Proxmox virtualization, QEMU/KVM, and automated CI/CD pipelines with Jenkins and Docker orchestration.' },
-                { label: 'Product Delivery (Cyber Kiosk):', text: 'Managed full lifecycle of hardware-integrated forensic kiosk for sanitizing mobile/storage devices with frontend UX and backend logic.' },
-                { label: 'Product Delivery (Dorje SIEM):', text: 'Led engineering of OT traffic monitoring tool with backend logic and frontend asset detection for PLC and HMI management.' },
-                { label: 'CI/CD Implementation:', text: 'Planned and created CI/CD pipelines for automated testing, building, and deployment of security applications.' }
+                { label: 'Advance Cyber Kiosk:', text: 'Led the delivery of a hardware-integrated forensic kiosk for secure data sanitization in restricted environments.' },
+                { label: 'CI/CD Maturity:', text: 'Implemented mature CI/CD pipelines using Jenkins and Docker to automate security testing and deployment.' },
+                { label: 'Networking & Security:', text: 'Configured enterprise firewalls and Snort-based IDS to protect critical product infrastructure.' }
             ]
         },
         {
@@ -45,8 +43,7 @@ const CareerTimeline = () => {
             company: 'TechAvidus',
             type: 'regular',
             highlights: [
-                { text: 'Collaborated on scalable Node.js and Angular applications for enterprise clients with focus on performance optimization.' },
-                { text: 'Provided technical mentorship to junior developers, improving team velocity and establishing code quality standards.' }
+                { text: 'Developed scalable Node.js and Angular applications with a focus on multi-tenant architecture and performance.' }
             ]
         },
         {
@@ -55,7 +52,7 @@ const CareerTimeline = () => {
             company: 'Nimblechapps',
             type: 'regular',
             highlights: [
-                { text: 'Executed frontend development for diverse client projects using React and Node.js with modern tooling and best practices.' }
+                { text: 'Built modern web interfaces using React and Node.js for international clients, adhering to high-quality code standards.' }
             ]
         },
         {
@@ -64,7 +61,7 @@ const CareerTimeline = () => {
             company: 'Webelight Solutions',
             type: 'start',
             highlights: [
-                { text: 'Developed responsive web interfaces and optimized application performance using Angular frameworks for various client projects.' }
+                { text: 'Started professional journey by creating responsive Angular applications and optimizing frontend performance.' }
             ]
         }
     ];
@@ -81,11 +78,10 @@ const CareerTimeline = () => {
         <section className="section" id="timeline">
             <div className="container">
                 <div className="animate-on-scroll">
-                    <h2 className="section-title">Career Journey</h2>
+                    <h2 className="section-title">Professional Journey</h2>
                 </div>
 
                 <div style={{ maxWidth: '800px', margin: '0 auto', position: 'relative' }}>
-                    {/* Vertical line */}
                     <div style={{
                         position: 'absolute',
                         left: '20px',
@@ -104,9 +100,8 @@ const CareerTimeline = () => {
                                 <div key={index} style={{
                                     position: 'relative',
                                     paddingLeft: '60px',
-                                    marginBottom: index === timeline.length - 1 ? 0 : '2rem'
+                                    marginBottom: index === timeline.length - 1 ? 0 : '2.5rem'
                                 }}>
-                                    {/* Timeline dot */}
                                     <div style={{
                                         position: 'absolute',
                                         left: '11px',
@@ -114,141 +109,96 @@ const CareerTimeline = () => {
                                         width: '20px',
                                         height: '20px',
                                         borderRadius: '50%',
-                                        background: item.type === 'current'
-                                            ? 'var(--color-primary)'
-                                            : item.type === 'milestone'
-                                                ? 'var(--color-primary-light)'
-                                                : item.type === 'start'
-                                                    ? 'var(--color-slate-400)'
-                                                    : 'white',
-                                        border: `3px solid ${item.type === 'current'
-                                            ? 'var(--color-primary)'
-                                            : item.type === 'milestone'
-                                                ? 'var(--color-primary-light)'
-                                                : 'var(--color-slate-300)'
-                                            }`,
+                                        background: item.type === 'current' ? 'var(--color-primary)' : 'white',
+                                        border: `3px solid var(--color-primary)`,
                                         zIndex: 1,
                                         boxShadow: '0 0 0 4px var(--color-bg-primary)'
                                     }} />
 
-                                    <div className="card" style={{
-                                        background: item.type === 'current'
-                                            ? 'linear-gradient(135deg, rgba(30, 58, 138, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)'
-                                            : 'var(--color-card-bg)',
-                                        border: item.type === 'current'
-                                            ? '2px solid var(--color-primary)'
-                                            : '1px solid var(--border-color)',
-                                        cursor: 'pointer'
-                                    }}>
-                                        {/* Header - Always visible */}
-                                        <div
-                                            onClick={() => toggleCard(index)}
-                                            style={{
-                                                display: 'flex',
-                                                justifyContent: 'space-between',
-                                                alignItems: 'flex-start',
-                                                gap: '1rem'
-                                            }}
-                                        >
-                                            <div style={{ flex: 1 }}>
-                                                <div style={{
-                                                    display: 'flex',
-                                                    justifyContent: 'space-between',
-                                                    alignItems: 'baseline',
-                                                    marginBottom: '0.5rem',
-                                                    flexWrap: 'wrap',
-                                                    gap: '0.5rem'
-                                                }}>
-                                                    <span style={{
-                                                        fontSize: '0.875rem',
-                                                        fontWeight: '700',
-                                                        color: item.type === 'current' ? 'var(--color-primary)' : 'var(--color-slate-500)',
-                                                        textTransform: 'uppercase',
-                                                        letterSpacing: '0.05em'
-                                                    }}>
-                                                        {item.year}
-                                                    </span>
-                                                    {item.type === 'current' && (
-                                                        <span style={{
-                                                            fontSize: '0.75rem',
-                                                            fontWeight: '600',
-                                                            color: 'white',
-                                                            background: 'var(--color-primary)',
-                                                            padding: '0.25rem 0.75rem',
-                                                            borderRadius: '1rem'
-                                                        }}>
-                                                            Current
-                                                        </span>
-                                                    )}
-                                                </div>
-
-                                                <h3 style={{
-                                                    fontSize: '1.125rem',
+                                    <div className="card"
+                                        onClick={() => toggleCard(index)}
+                                        style={{
+                                            padding: '1.5rem 2rem',
+                                            cursor: 'pointer',
+                                            border: item.type === 'current' ? '2px solid var(--color-primary)' : '1px solid var(--border-color)',
+                                            background: item.type === 'current' ? 'rgba(30, 58, 138, 0.02)' : 'var(--color-card-bg)',
+                                            transition: 'all 0.3s ease'
+                                        }}
+                                    >
+                                        <div style={{
+                                            display: 'flex',
+                                            justifyContent: 'space-between',
+                                            alignItems: 'baseline',
+                                            marginBottom: '0.5rem',
+                                            gap: '1rem',
+                                            flexWrap: 'wrap'
+                                        }}>
+                                            <span style={{
+                                                fontSize: '0.8rem',
+                                                fontWeight: '800',
+                                                color: 'var(--color-primary)',
+                                                textTransform: 'uppercase',
+                                                letterSpacing: '0.05em'
+                                            }}>
+                                                {item.year}
+                                            </span>
+                                            {item.type === 'current' && (
+                                                <span style={{
+                                                    fontSize: '0.7rem',
                                                     fontWeight: '700',
-                                                    color: 'var(--color-slate-900)',
-                                                    margin: '0 0 0.25rem 0'
+                                                    color: 'white',
+                                                    background: 'var(--color-primary)',
+                                                    padding: '0.2rem 0.6rem',
+                                                    borderRadius: '4px'
                                                 }}>
-                                                    {item.title}
-                                                </h3>
-
-                                                <p style={{
-                                                    fontSize: '1rem',
-                                                    fontWeight: '600',
-                                                    color: 'var(--color-primary)',
-                                                    margin: 0
-                                                }}>
-                                                    {item.company}
-                                                </p>
-                                            </div>
-
-                                            {/* Expand/Collapse Icon */}
-                                            <button
-                                                onClick={(e) => {
-                                                    e.stopPropagation();
-                                                    toggleCard(index);
-                                                }}
-                                                style={{
-                                                    background: 'transparent',
-                                                    border: 'none',
-                                                    cursor: 'pointer',
-                                                    padding: '0.5rem',
-                                                    display: 'flex',
-                                                    alignItems: 'center',
-                                                    justifyContent: 'center',
-                                                    color: 'var(--color-primary)',
-                                                    transition: 'all var(--transition-base)',
-                                                    transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)'
-                                                }}
-                                                onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-primary-dark)'}
-                                                onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-primary)'}
-                                            >
-                                                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                                </svg>
-                                            </button>
+                                                    ACTIVE
+                                                </span>
+                                            )}
                                         </div>
 
-                                        {/* Expandable Content */}
+                                        <h3 style={{
+                                            fontSize: '1.125rem',
+                                            fontWeight: '700',
+                                            color: 'var(--color-slate-900)',
+                                            margin: '0 0 0.25rem 0'
+                                        }}>
+                                            {item.title}
+                                        </h3>
+
+                                        <p style={{
+                                            fontSize: '0.925rem',
+                                            fontWeight: '600',
+                                            color: 'var(--color-slate-600)',
+                                            margin: 0
+                                        }}>
+                                            {item.company}
+                                        </p>
+
                                         <div style={{
                                             maxHeight: isExpanded ? '1000px' : '0',
                                             overflow: 'hidden',
-                                            transition: 'max-height 0.4s ease-in-out, margin-top 0.4s ease-in-out',
-                                            marginTop: isExpanded ? '1rem' : '0'
+                                            transition: 'all 0.4s ease-in-out',
+                                            marginTop: isExpanded ? '1.25rem' : '0',
+                                            opacity: isExpanded ? 1 : 0
                                         }}>
-                                            <ul className="list-disc" style={{ margin: 0, paddingLeft: '1.5rem' }}>
+                                            <ul style={{ margin: 0, padding: 0, listStyle: 'none' }}>
                                                 {item.highlights.map((highlight, hIndex) => (
                                                     <li key={hIndex} style={{
                                                         fontSize: '0.875rem',
                                                         color: 'var(--color-slate-700)',
-                                                        marginBottom: '0.5rem',
-                                                        lineHeight: '1.6'
+                                                        marginBottom: '0.75rem',
+                                                        display: 'flex',
+                                                        gap: '0.75rem'
                                                     }}>
-                                                        {highlight.label && (
-                                                            <strong style={{ color: 'var(--color-slate-800)' }}>
-                                                                {highlight.label}{' '}
-                                                            </strong>
-                                                        )}
-                                                        {highlight.text}
+                                                        <span style={{ color: 'var(--color-primary)', fontWeight: 'bold' }}>•</span>
+                                                        <span>
+                                                            {highlight.label && (
+                                                                <strong style={{ color: 'var(--color-slate-900)', fontWeight: '700' }}>
+                                                                    {highlight.label}{' '}
+                                                                </strong>
+                                                            )}
+                                                            {highlight.text}
+                                                        </span>
                                                     </li>
                                                 ))}
                                             </ul>

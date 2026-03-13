@@ -9,32 +9,8 @@ import TechnicalSkills from '../src/components/TechnicalSkills';
 import Certifications from '../src/components/Certifications';
 import BlogSection from '../src/components/BlogSection';
 import ContactSection from '../src/components/ContactSection';
-import ThemeToggle from '../src/components/ThemeToggle';
 
 const Index = () => {
-  const [theme, setTheme] = useState('light');
-  const [mounted, setMounted] = useState(false);
-
-  // Initialize theme on mount
-  useEffect(() => {
-    setMounted(true);
-
-    // Load saved theme or detect system preference
-    const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const initialTheme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
-
-    setTheme(initialTheme);
-    document.documentElement.setAttribute('data-theme', initialTheme);
-  }, []);
-
-  // Toggle theme function
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
-    document.documentElement.setAttribute('data-theme', newTheme);
-  };
 
   useEffect(() => {
     // Intersection Observer for scroll animations
@@ -64,8 +40,8 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Divyang Mistry - Technical Product Manager & DevOps Architect</title>
-        <meta name="description" content="Technical Product Manager and DevOps Architect with 6+ years of experience in cybersecurity, infrastructure, and product leadership." />
+        <title>Divyang Mistry - AI Developer | Software Engineer</title>
+        <meta name="description" content="AI Developer and Software Engineer with 6+ years of experience in cybersecurity, infrastructure, and product leadership." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -82,9 +58,6 @@ const Index = () => {
         <BlogSection />
         <ContactSection />
       </main>
-
-      {/* Theme Toggle Button */}
-      {mounted && <ThemeToggle currentTheme={theme} onToggle={toggleTheme} />}
 
       <footer style={{
         background: 'var(--color-bg-secondary)',
